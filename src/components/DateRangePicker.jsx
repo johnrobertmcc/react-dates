@@ -627,6 +627,8 @@ class DateRangePicker extends React.PureComponent {
       regular,
       css,
       styles,
+      header,
+      footer,
     } = this.props;
 
     const { isDateRangePickerInputFocused } = this.state;
